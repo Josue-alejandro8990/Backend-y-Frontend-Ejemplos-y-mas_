@@ -1,0 +1,48 @@
+h1{
+    color:aqua;
+    background-color: black;
+}
+a:link{
+color:brown;
+}
+a:visited{
+    color:darkorchid;
+    text-decoration: none;
+}
+a:hover{
+    color:darkred;
+    text-decoration: underline;
+}
+a:active{
+    color:red;
+    text-decoration: underline;
+}
+table,th,td{
+    border: 3px solid black;
+    border-collapse: colapse;
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+caption{
+    color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 40px;
+    line-height: 70px;
+}
+tr:nth-child(oven){
+    background-color: brown;
+}
+tr:nth-child(odd){
+    background-color: brown;
+}
+
+ul{
+    list-style-type: none;
+    background-color: burlywood;
+    overflow:hidden;
+}
+li a{
+    display:block;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+   <form 
+   class="myform" method="GET" enctype="application/x-www-form-urlencoded"
+    action="/noexiste.html">
+    <p>
+        <label>Nombre
+            <input type="text" name="nombre_cliente" required>
+        </label>
+    </p>
+    <p>
+        <label>Telefono
+            <input type="tel" name="numero_telefono" required>
+        </label>
+    </p>
+    <p>
+        <label>Email
+            <input type="email" name="direccion_cliente" required>
+        </label>
+    </p>
+    <fieldset>
+        <legend>Que taxi quiere?</legend>
+        <p><label>
+            <input type="radio" name="taxi" required value="car">
+            carrito
+        </label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>
+            <input type="radio" name="taxi" required value="van">
+            suv
+        </label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>
+            <input type="radio" name="taxi" required value="tuktuk">
+            tuk tuk
+        </label></p>
+    </fieldset>
+    <fieldset>
+        <legend>Extras</legend>
+        <p><label>
+            <input type="checkbox" name="extras" value="baby">
+            silla de bebe
+        </label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>
+            <input type="checkbox" name="extras" value="musica">
+            NO REGUETON
+        </label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>
+            <input type="checkbox" name="extras" value="sillaruedas">
+            silla de ruedas
+        </label></p>
+    </fieldset>
+    <p>
+        <label>
+            Dia y hora?
+            <input type="datetime-local" name="fecha_hora" required>
+        </label>
+    </p>
+    <p>
+        <label>
+            Lugar Para recoger
+            <select name="pickup_place" id="pickup_place">
+                <option value="" selected="selected">Seleccione opcion</option>
+                <option value="oficina">oficina</option>
+                <option value="feria">la feria</option>
+                <option value="universidad">la umg</option>
+                <option value="no_se">Le digo al chofer</option>
+            </select>
+        </label>
+    </p>
+
+    <p>
+        <label>
+            Dejar en:
+            <input type="text" name="dejar_en" required list="destino">
+        </label>
+        <datalist id="destino">
+            <option value="aeropuerto"></option>
+            <option value="playa"></option>
+            <option value="la biblioteca"></option>
+        </datalist>
+    </p>
+    <p>
+        <label>
+            instrucciones para el chofer
+            <textarea name="comentarios" maxlength="500"></textarea>
+        </label>
+    </p>
+    <p>
+        <button> Hacer cita</button>
+    </p>
+</form> 
+</body>
+</html>

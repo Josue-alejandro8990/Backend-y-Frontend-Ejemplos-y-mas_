@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family=Estilo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body
+{
+    background : url(imagenes/fondo.jpg) no-repeat center fixed;
+    background-size: cover;
+    width: 99%;
+}
+.estilo-letra2
+{
+font-family: 'Style Script', cursiva;
+color:rgb(17, 16, 16);
+position: relative;
+top: 15px;
+}
+
+.estilo-letra
+{
+font-family: "Roboto";
+color:rgb(17, 16, 16);
+position: static;
+top: 20px;
+}
+.estilo-letra3
+{
+font-family: "Roboto";
+color:rgb(17, 16, 16);
+position: static;
+text-align: justify;
+top: 20px;
+}
+.perfil
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  vertical-align: text-top;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 1px;
+}
+.iconos
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50px;
+  text-align: justify;
+  vertical-align: text-top;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 1px;
+}
+.estilo-botones
+{
+background-color: darkgreen;
+padding:6px;
+border-radius:50%;
+width: 200px;
+height: 100px;
+font-family: "Roboto";
+}
