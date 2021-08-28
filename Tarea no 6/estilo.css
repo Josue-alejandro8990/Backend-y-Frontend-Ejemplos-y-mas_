@@ -1,0 +1,84 @@
+h1{
+  text-align: center;  
+}
+/* Inicio CSS Alumno */
+.lista_alumnos
+{
+background-color:darkorange;
+width: 250px;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+border: solid 1px rgb(0, 0, 0, 0.5);
+}
+
+.lista_alumnos ol
+{
+    font-size: 20px;
+}
+
+.lista_alumnos h3
+{
+    color: white;
+    text-align: center;
+}
+
+.rojo
+{
+    color:red;
+}
+
+.verde
+{
+    color: green;
+}
+
+.azul
+{
+    color: blue;
+}
+/* Fin CSS Alumnos */
+
+/* Inicio CSS Calculadora */
+.contenedor
+{
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 1px rgb(0, 0, 0, 0.5);
+    width: 430px;
+    height: 315px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:darkgoldenrod;  
+}
+
+.contenedor label
+{
+    font-size: 15px;
+}
+
+.contenedor input
+{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#calculadora
+{
+padding: 5px;
+background-color:whitesmoke;
+width: 300px;
+position: relative;
+top: 10px;
+margin: auto;
+height: 200px;
+}
+
+#calculadora p
+{
+    position: relative;
+    left: 120px;
+}
+/* Fin CSS Calculadora */
