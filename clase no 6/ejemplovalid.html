@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo de event listener y validacion</title>
+<script>
+    function iniciar(){
+        nombre1=document.getElementById("nombre");
+        nombre2=document.getElementById("apellido");
+        nombre1.addEventListener("input",validacion, false);
+        nombre2.addEventListener("input",validacion,flase);
+        validacion();
+    }
+
+    function validacion(){
+        if(nombre.value ==''&&nombre.value==''){
+            nombre1.setCustomValidity(`inserte al menos un nombre`);
+            nombre1.style.background=`#FFFFFF`;
+        }
+        else{
+         nombre1.setCustomValidity('');
+         nombre1.style.background='#FFFFFF';   
+        }
+    }
+    window.addEventListener("load",iniciar,false);
+</script>
+</head>
+<body>
+    <section>
+        <form name="registro" method="GET">
+            nombre:
+            <input type="text" name="nombre" id="nombre">
+            apellido:
+            <input type="text" name="apellido" id="apellido">
+            <input type="submit" id="send" value="enviar">
+        </form>
+    </section>
+</body>
+</html>

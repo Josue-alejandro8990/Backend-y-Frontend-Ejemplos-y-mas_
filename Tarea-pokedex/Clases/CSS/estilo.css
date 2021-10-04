@@ -1,0 +1,24 @@
+body {
+  background-color: #eee;
+}
+#tipos_pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.tipos {
+  background-color: rgb(148, 173, 195);
+  border-radius: 4px;
+  width: 150px;
+  margin: 15px;
+  padding-left: 50px;
+}
+
+form {
+  margin: 10px;
+}
+img {
+  width: 100px;
+}
